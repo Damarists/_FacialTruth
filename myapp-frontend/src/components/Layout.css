@@ -1,0 +1,5 @@
+body { display: flex; height: 100vh; margin: 0; font-family: 'Roboto', sans-serif; }
+
+.MuiDrawer-paper { background-color: #292929 !important; /* Fondo negro */ color: #fff !important; }
+
+.MuiListItem-root:hover { background-color: #1976d2 !important; /* Fondo azul al pasar el mouse */ }

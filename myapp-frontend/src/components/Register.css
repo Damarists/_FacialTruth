@@ -1,0 +1,39 @@
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    width: 100%;
+    max-width: 600px;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .card h1 {
+    margin-bottom: 20px;
+  }
+  
+  .card form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card form .MuiTextField-root {
+    margin-bottom: 20px;
+  }
+  
+  .card form .MuiButton-root {
+    margin-top: 20px;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

@@ -1,0 +1,14 @@
+.large-header {
+    position: relative;
+    width: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2023/08/14/15/42/milkyway-8190232_1280.jpg');
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  #demo-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
